@@ -26,3 +26,29 @@ echo "body {
     width: 100%;
   }" > public/styles/main.css
   
+  #dashboard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .tenant {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .tenant h2 {
+    color: #333;
+  }
+  
+  .pay-btn {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
